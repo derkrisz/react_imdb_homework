@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
+import Movie from './Movie';
 
 class MovieList extends Component {
   render() {
-    return (
-      <div className="movie-list">I am a movie list</div>
-    );
+
+    const movieNodes = this.props.movies.map(movie => {
+
+      return (
+        <Movie title={movie.title} key={movie.id} showtime={movie.showtime}>
+        </Movie>
+      )
+    })
+    return <div className="movieList"> {movieNodes} </div>
   }
 }
 
