@@ -23,7 +23,7 @@ class MovieBox extends Component {
       <div className="movie-box">
         <h1 className="header">UK Opening This Week</h1>
         <MovieList movies={this.state.movies} />
-        <button onClick={this.clickShowtimebutton}>Get Showtimes >></button>
+        <button className="showtime-button" onClick={this.clickShowtimebutton}>Get Showtimes >></button>
       </div>
     )
   }

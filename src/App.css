@@ -33,6 +33,10 @@
 }
 
 .header {
-  text-align: center;
+  display: inline-block;
   background-color: green;
+}
+
+.movie-box {
+  text-align: center;
 }
