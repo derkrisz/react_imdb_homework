@@ -21,7 +21,7 @@ class MovieBox extends Component {
   render() {
     return(
       <div className="movie-box">
-        <h1>UK Opening This Week</h1>
+        <h1 className="header">UK Opening This Week</h1>
         <MovieList movies={this.state.movies} />
         <button onClick={this.clickShowtimebutton}>Get Showtimes >></button>
       </div>

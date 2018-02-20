@@ -26,3 +26,13 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.movie {
+  background-color: tomato;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  background-color: green;
+}
